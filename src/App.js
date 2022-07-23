@@ -1,11 +1,11 @@
 import './App.css';
-import GetList from './components/GetList';
+import SearchManga from './components/SearchManga';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <GetList />
+        <SearchManga />
       </header>
     </div>
   );
