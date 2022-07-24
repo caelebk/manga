@@ -1,0 +1,68 @@
+$lightTea: #DBFEB8;
+$teaGreen: #C5EDAC;
+$etonBlue: #99C2A2;
+$morningBlue: #93B1A7;
+$xanadu: #7A918D;
+
+
+.c-manga-search {
+    width: 100%;
+
+    .title {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 10px;
+        width: 100%;
+        color: white;
+        background-color: $morningBlue;
+    }
+
+    .input-container {
+        padding-top: 20px;
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .search {
+            margin-right: 8px;
+        }
+    }
+
+    .list-container {
+        background-color: darkslategrey;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+
+        .list {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            color: white;
+
+            .list-card {
+                max-width: 256px;
+                width: 256px;
+                max-height: 394px;
+                margin: 8px;
+
+                .card-img {
+                    width: inherit;
+                    height: 344px;
+                    padding: 2px;
+                }
+
+                .card-title {
+                    color: black;
+                    max-width: inherit;
+                    padding: 8px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+}
