@@ -29,9 +29,16 @@ $xanadu: #7A918D;
         }
     }
 
+    .spinner-container {
+        display: flex;
+        background-color: darkslategrey;
+        justify-content: center;
+    }
+
     .list-container {
         background-color: darkslategrey;
         width: 100%;
+        min-height: 1000px;
         padding: 20px;
         display: flex;
         justify-content: center;
