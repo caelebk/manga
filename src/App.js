@@ -1,5 +1,5 @@
 import './App.css';
-import SearchManga from './components/SearchManga';
+import SearchManga from './components/SearchMangaComponent/SearchManga';
 
 function App() {
   return (
